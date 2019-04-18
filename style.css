@@ -1,0 +1,73 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 300%;
+    text-decoration: none;
+}
+
+#main {
+    width: 50%;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+}
+nav {
+    margin-top: 30px;
+    color: grey;
+}
+#current {
+    color: #8080ff;
+}
+.nav {
+    margin-right: 50px;
+    font-size: 150%;
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+}
+#rights {
+    opacity: 0.8;
+}
+hr {
+    width: 95%;
+    margin: 0% auto 0% auto;
+    opacity: 0.8;
+}
+#left {
+    line-height: 150%;
+    font-size: 200%;
+    width: 55%;
+    background-color: #8080ff;
+}
+#right {
+    font-size: 200%;
+    width: 40%;
+    background-color: #BF73FF;
+    margin-left: auto;
+    text-align: right;
+}
+#this {
+    padding-left: 3%;
+}
+#hope {
+    padding-right: 25%;
+}
+.icons {
+    width: 4%;
+    height: 4%;
+    margin: 0.1%;
+}
+a {   
+    color: inherit;
+}
+a:hover {
+    color: #73BDFF;
+}
+#heading:hover {
+    color: black;
+}
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
