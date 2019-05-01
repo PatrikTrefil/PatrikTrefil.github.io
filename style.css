@@ -71,3 +71,8 @@ a:hover {
 a:link, a:visited, a:active {
     text-decoration: none;
 }
+
+.fm-postwrapper {
+    border-radius: 3px;
+    border: 1px solid black;
+}
