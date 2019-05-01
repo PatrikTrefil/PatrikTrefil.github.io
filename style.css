@@ -15,6 +15,7 @@ h1 {
 nav {
     margin-top: 30px;
     color: grey;
+    padding-bottom: 3%;
 }
 #current {
     color: #8080ff;
@@ -32,7 +33,7 @@ footer {
 }
 hr {
     width: 95%;
-    margin: 0% auto 0% auto;
+    margin: 2% auto 2% auto;
     opacity: 0.8;
 }
 #left {
@@ -72,15 +73,37 @@ a:link, a:visited, a:active {
     text-decoration: none;
 }
 
+
+#fm-medium-embed{
+    box-sizing: border-box;
+    margin: 0 auto;
+    text-align: center;
+}
 .fm-post-wrapper{
     display: inline-block;
     border-radius: 3px;
-    width: 300px;
-    padding: 15px;
+    width: 45%;
+    padding: 3%;
     background: #fff;
     text-align: left;
-    margin: 10px;
+    margin: 2%;
     min-height: 340px;
     border: 1px solid #bbb;
     box-shadow: 0 3px 15px rgba(0,0,0,0.25);
-  }
+}
+.fm-medium-profile{
+    margin-top: 10px;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.fm-medium-profile a{
+    display: inline-block;
+    background: #fff;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 3px;
+    border: 2px solid #73BDFF;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.15);
+}
