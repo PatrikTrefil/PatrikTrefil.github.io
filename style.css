@@ -79,6 +79,9 @@ a:link, a:visited, a:active {
     margin: 0 auto;
     text-align: center;
 }
+#fm-post {
+    width: 20%;
+}
 .fm-post-wrapper{
     display: inline-block;
     border-radius: 3px;
