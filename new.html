@@ -15,22 +15,44 @@
     <a class="nav" href="http://patriktrefil.me/about">About me</a>
 </nav>
 <div id="content">
+    <!-- Medium Feed-->
     <div id="fm-medium-embed"></div>
+    <script src="//data.feedmirror.com/embed.js"></script>
+    <script>
+    var fmSettings = {
+        feedURL: 'https://data.feedmirror.com/-Le7NtcnjJRSl30cMfDQ.json',
+        integration: 'medium-embed',
+        linkOutText: 'Read more',
+        linkToMediumProfileText: 'Subscribe on Medium',
+        postsCount: 2,
+        element: 'fm-medium-embed'
+    };
+    feedmirror.initialize(fmSettings);
+    </script>
+    <!--YouTube-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<script src="//data.feedmirror.com/embed.js"></script>
-<script>
-  var fmSettings = {
-    feedURL: 'https://data.feedmirror.com/-Le7NtcnjJRSl30cMfDQ.json',
-    integration: 'medium-embed',
-    linkOutText: 'Read more',
-    linkToMediumProfileText: 'Subscribe on Medium',
-    postsCount: 2,
-    element: 'fm-medium-embed'
-  };
-  feedmirror.initialize(fmSettings);
-</script>
-            
-            
+    <div id="youtube">
+        <iframe class="latestVideoEmbed" vnum='0' cid="UCBUlkiCl--wkrXqhth6g4ZA" width="600" height="340" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <script>
+    var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
+    function loadVideo(iframe){
+        $.getJSON( reqURL + iframe.getAttribute('cid'),
+        function(data) {
+            var videoNumber = (iframe.getAttribute('vnum')?Number(iframe.getAttribute('vnum')):0);
+            console.log(videoNumber);
+            var link = data.items[videoNumber].link;
+            id = link.substr(link.indexOf("=") + 1);  
+            iframe.setAttribute("src","https://youtube.com/embed/"+id + "?controls=0&autoplay=1");
+        }
+    );
+    }
+    var iframes = document.getElementsByClassName('latestVideoEmbed');
+    for (var i = 0, len = iframes.length; i < len; i++){
+        loadVideo(iframes[i]);
+    }
+    </script>  
 </div>
 <hr>
 <footer>

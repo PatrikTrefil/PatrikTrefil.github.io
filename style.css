@@ -105,9 +105,17 @@ a:link, a:visited, a:active {
 .fm-medium-profile a{
     display: inline-block;
     background: #fff;
-    margin: 0 auto;
+    margin: 3% auto;
     padding: 15px;
     border-radius: 3px;
     border: 2px solid #73BDFF;
     box-shadow: 0 3px 15px rgba(0,0,0,0.15);
+}
+.fm-post-read-more {
+    color: rgba(63, 58, 58, 0.15);
+}
+#youtube {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
 }
