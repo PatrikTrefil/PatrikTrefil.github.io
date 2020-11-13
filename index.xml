@@ -8,6 +8,28 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 26 May 2019 09:50:20 +0100</lastBuildDate><atom:link href="https://patriktrefil.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Programs I Use</title>
+      <link>https://patriktrefil.com/programs/</link>
+      <pubDate>Fri, 13 Nov 2020 09:56:01 +0100</pubDate>
+      
+      <guid>https://patriktrefil.com/programs/</guid>
+      <description>You can find my configs on GitHub.
+My builds are on Gitlab.
+General  Window Manager: dwm Status bar: dwmblocks Browser: Firefox Editor: nvim, vscodium Terminal: Alacritty Cloud: Mega File Manager: ranger, pcmanfm Theme: Dracula  Documents  PDF-Viewer: Zathura Markdown Latex Libre Office Books: callibre  Video  MPV VLC  Audio  MPD with ncmpcpp  Other  Password Manager: Bitwarden Notes: Joplin RSS Client: newsboat Shortcuts Daemon: sxhkd Locker: xsecurelock Redshift, safeeyes - easy on the eyes  Services  ProtonVPN Tutanota E-mail Signal IM Matrix  </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://patriktrefil.com/about/</link>
+      <pubDate>Thu, 12 Nov 2020 11:27:47 +0100</pubDate>
+      
+      <guid>https://patriktrefil.com/about/</guid>
+      <description>My name is Patrik Trefil and I study Computer Science at Charles University in Prague, Czech Republic.
+Here is my PGP Key
+Matrix: @patrik.trefil@tchncs.de</description>
+    </item>
+    
+    <item>
       <title>iPad (2018) Review: The best budget tablet</title>
       <link>https://patriktrefil.com/posts/ipad_review/</link>
       <pubDate>Sun, 26 May 2019 09:50:20 +0100</pubDate>

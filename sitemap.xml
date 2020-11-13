@@ -3,7 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://patriktrefil.com/programs/</loc>
+    <lastmod>2020-11-13T09:56:01+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://patriktrefil.com/about/</loc>
+    <lastmod>2020-11-12T11:27:47+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://patriktrefil.com/posts/ipad_review/</loc>
+    <lastmod>2019-05-26T09:50:20+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://patriktrefil.com/tags/other/</loc>
     <lastmod>2019-05-26T09:50:20+01:00</lastmod>
   </url>
   
@@ -18,8 +33,18 @@
   </url>
   
   <url>
+    <loc>https://patriktrefil.com/tags/</loc>
+    <lastmod>2019-05-26T09:50:20+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://patriktrefil.com/posts/distant_travels/</loc>
     <lastmod>2019-05-22T17:10:53+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://patriktrefil.com/tags/essays/</loc>
+    <lastmod>2019-05-18T09:56:14+01:00</lastmod>
   </url>
   
   <url>
@@ -39,10 +64,6 @@
   
   <url>
     <loc>https://patriktrefil.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://patriktrefil.com/tags/</loc>
   </url>
   
 </urlset>
