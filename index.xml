@@ -15,7 +15,7 @@
       <guid>https://patriktrefil.com/programs/</guid>
       <description>You can find my configs on GitHub.
 My builds are on Gitlab.
-General  Window Manager: dwm Status bar: dwmblocks Browser: Firefox Editor: nvim, vscodium Terminal: Alacritty Cloud: Mega File Manager: ranger, pcmanfm Theme: Dracula  Documents  PDF-Viewer: Zathura Markdown Latex Libre Office Books: callibre  Video  MPV VLC  Audio  MPD with ncmpcpp  Other  Password Manager: Bitwarden Notes: Joplin RSS Client: newsboat Shortcuts Daemon: sxhkd Locker: xsecurelock Redshift, safeeyes - easy on the eyes  Services  ProtonVPN Tutanota E-mail Signal IM Matrix  </description>
+General  Window Manager: dwm Status bar: dwmblocks Browser: Firefox Editor: nvim, vscodium Terminal: Alacritty Shell: zsh Cloud: Mega File Manager: ranger, pcmanfm Theme: Dracula  Documents  PDF-Viewer: Zathura Writing: Markdown, Latex, Libre Office Books: callibre  Video  MPV VLC  Audio  MPD with ncmpcpp  Development I use Neovim for almost everything. I find debugging much more convenient in standard IDEs, so I use VSCodium, which is truly open-source VS Code.</description>
     </item>
     
     <item>
